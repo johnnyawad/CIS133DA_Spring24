@@ -3,27 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>table demo </title>
+    <style>
+            table,tr,td {
+                border: 1px solid blue;
+            }
+            table{
+                width: 50%;
+                border-collapse: collapse;
+            }
+            class{
+
+            }
+            .StuName{
+                text-align: left;
+            }
+    </style>
 </head>
 <body>
-    <h1>
-        Johnny Awad - Home Page
-    </h1>
-    <img src="./Images/7e12b59d-a534-4f29-96a6-e5eef697f1f4.jpg" alt="picture Johnny on vacation in lebanon" style="width:185px;
-    ">
-    <p>
-        This photo is Me at vacation in lebanon.
-    </p>
-    <h2>
-        The only place i spend my money:
-    </h2>
-    <p>
-        <b>Zu Izakaya Asian Kitchen Bar </b><br/>
-        635 N Country Club Dr,<br />
-        Mesa, AZ 85201<br />
-        <a href="https://www.gabbysbar.com/"><img src="./Images/download.png" alt="Gabbys Logo"></a>
 
-    </p>
-    <iframe src="https://www.google.com/maps/dir/33.5118336,-111.8896128/gabby's/@33.4689177,-111.9068269,13z/"></iframe>
+<table     >
+    <tr>
+        <th style="width: 40%;">name </th>
+        <th style="width: 20;">week1 </th>
+        <th style="width: 20%;">week2</th>
+        <th style="width: 20%;">week3</th>
+    </tr>
+    <tr>
+        <td class="StuName">Michelle </td>
+        <td>D</td>
+        <td>A+</td>
+        <td>C</td>
+    </tr>
+    <tr>
+        <td class="StuName">Michelle </td>
+        <td>D</td>
+        <td>A+</td>
+        <td>C</td>
+    </tr><tr>
+        <td rowspan="2" class="StuName">abe  </td>
+        <td>D</td>
+        <td>A+</td>
+        <td>C</td>
+    </tr><tr>
+        
+        <td colspan="3">A</td>
+        
+    </tr>
+
+</table>
+
+
 </body>
 </html>

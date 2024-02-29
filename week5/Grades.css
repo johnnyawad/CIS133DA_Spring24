@@ -1,0 +1,23 @@
+body{
+    font-size: 10px;
+}
+table, td , th{
+    border-collapse: collapse;
+    padding: 1rem;
+}
+.tdright{
+    text-align: right;
+}
+
+th{
+    background-color: darkgreen;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+tbody tr:nth-of-type(even){
+    background-color: lightgreen; 
+    
+}
+
