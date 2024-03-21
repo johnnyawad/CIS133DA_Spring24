@@ -4,9 +4,13 @@
     box-sizing: border-box;
     background-color:rgb(238, 233, 230);
 }
-main{
+main,table{
     background-color: rgb(238, 233, 230);
     width: auto;
+    border-collapse: collapse;
+    border: 2px solid;
+    border-color: blue;
+    
     
 }
 
@@ -46,6 +50,7 @@ tr{
     border: 2px solid;
     border-collapse: collapse;
     padding: 20rem;
+    
     
 
 }
