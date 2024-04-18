@@ -7,6 +7,11 @@ body {
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
     height: 100vh;
+    display: grid;
+    grid-template-columns: 15vw auto;
+    grid-template-rows: 15vh auto 10vh;
+    grid-template-areas: "hdr hdr" "asd mn " "ftr ftr" 
+
 }
 
 header, aside, main, footer {
@@ -17,25 +22,39 @@ header, aside, main, footer {
 header {
     color: white;
     background-color: blue;
+    grid-area: hdr;
 }
 
 aside {
     background-color: yellow;
+    grid-area: asd;
 }
 
 aside > img {
     border-radius: 50%;
+    display: grid;
+    grid-template-columns: 15vw auto;
+    grid-template-rows: 15vh auto 10vh;
+    
 }
 
 main {
+    
 }
 
 footer {
     color: white;
     background-color: blue;
+    grid-area: ftr;
 }
 
-header, footer {
+header, footer ,#petWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10rem;
+    justify-content: center;
+    align-items: center;
+
 }
 
 h1 {
@@ -49,6 +68,11 @@ p {
 .mascot {
     height: 50px;
     vertical-align: middle;
+    display: grid;
+    grid-template-columns: 15vw auto;
+    grid-template-rows: 15vh auto 10vh;
+
+    
 }
 
 .amigo_div {
@@ -60,4 +84,10 @@ p {
 .amigo_div > img {
     width: 180px;
     height: 180px;
+    display: grid;
+    grid-template-columns: 15vw auto;
+    grid-template-rows: 15vh auto 10vh;
 }
+
+
+
