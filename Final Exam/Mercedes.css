@@ -1,0 +1,91 @@
+/* 
+colors
+    dark blue rgb(0, 0, 128)
+    medium blue rgb(0, 0, 255)
+    light blue rgb(128, 128, 255)
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    height: auto;
+    width: auto;
+    
+    
+    
+}
+nav{
+    list-style-type: none;
+   
+}
+
+html {
+   font-size: 10px;
+}
+header, footer  {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10rem;
+    justify-content:baseline;
+    align-items:baseline;
+
+}
+
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    padding: 2rem;
+    background-size: cover;
+    color: #f30000;
+   background-size: cover;
+    
+    
+
+}
+table {
+    
+        width: 100%;
+        border-collapse: collapse;
+        font-family: Arial, sans-serif;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align:center;
+    padding: 8px;
+    color: #dddddd;
+    
+}
+img {
+    max-width: 100px;
+    max-height: 100px;
+    background-size: cover;
+}
+
+h1,h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: rgb(255, 8, 8);
+    color: red;
+    
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    html {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    html {
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Mercedes.css">
+    
+</head>
+<body background="images/4k-mercedes-matte-black-logo-8prom3vnj55m7thy.webp">
+    <nav class="Ribbon">
+            
+
+        <a href="index.html">Home</a>
+       <a href="history.html">History</a>
+       <a href="inventory.html">Inventory</a>
+       <a href="reviews.html">Reviews</a>
+        <a href="appointment.html">Appointment</a>
+    
+</nav>
+    <header>
+        <h1>Reviews</h1>
+        
+    
+
+    </header>
+    <main >
+        <section id="review-list">
+            <!-- Reviews will be dynamically added here -->
+        </section>
+    
+        <section id="review-form">
+            <h2>Write a Review</h2>
+            <p>Your feedback is valuable to us! Please take a moment to share your experience with us and help us improve our services. We appreciate your input!</p>
+            <form id="add-review-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required><br>
+                <label for="review">Review:</label>
+                <textarea id="review" required></textarea><br>
+                <label for="rating">Rating:</label>
+                <select id="rating" required>
+                    <option value="5">5 stars</option>
+                    <option value="4">4 stars</option>
+                    <option value="3">3 stars</option>
+                    <option value="2">2 stars</option>
+                    <option value="1">1 star</option>
+                </select><br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    
+    </main>
+    <footer>
+        <p>&copy; 2024 Mercedes-Benz Dealership</p>
+    </footer>
+</body>
+</html>
